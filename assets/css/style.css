@@ -84,14 +84,42 @@ ul {
 }
 .title.title--our-story {
     text-align: center;
-    margin-bottom: 75px;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 3px;
     color: #48555B;
 }
+.our-story img {
+    display: flex;
+    margin: 10px auto 50px;
+}
+.our-story__body {
+    display: flex;
+}
+.our-story__description {
+    max-width: 398px;
+    margin-right: 70px;
+}
+.description__founded {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #48555B;
+    margin-bottom: 30px;
+}
+.description__founded span {
+    color: #00A4E5;
+}
+.description__lorem {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.20px;
+    color: #48555B;
+}
+.our-story__plan {
+    display: flex;
+}
 
-
-
-
-
+.our-story__plan img {
+    margin-right: 20px;
+}
